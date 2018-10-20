@@ -246,4 +246,21 @@ img {
     width: 95%;
   }
   /*--------pagina inicio--------*/
+
+  /*--------fin pagina paisajes y retratos--------*/
+  #galeria {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .img1, .img3, .img5, .par {
+    width: 100%;
+    margin: auto;
+  }
+
+  .img1 img, .img3 img, .img5 img, .par img {
+    width: 95%;
+  }
+  /*--------fin pagina paisajes y retratos--------*/
 }

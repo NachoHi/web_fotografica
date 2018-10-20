@@ -164,3 +164,45 @@ img {
   filter: sepia(90%);
 }
 /*--------fin pagina paisajes y retratos--------*/
+
+/*--------footer--------*/
+#contenedor2 {
+  border-radius: 0 0 10px 10px;
+  background-color: #C6d5c5;
+  display: flex;
+  flex-direction: row;
+}
+
+#contenedor2 ul {
+  margin: 0 auto;
+  padding: 1%;
+  width: 25%;
+  font-size: 1.2em;
+}
+
+#contenedor2 ul:first-child {
+  margin-left: 1%;
+}
+
+#contenedor2 ul li {
+  list-style: none;
+  font-size: 1em;
+}
+
+#contenedor2 ul li:nth-of-type(1) {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#contenedor2 img {
+  box-shadow: 0px 0px;
+  border-radius: 10px;
+  width: 15%;
+}
+
+#contenedor2 a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+/*--------Fin footer--------*/

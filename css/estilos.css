@@ -228,4 +228,22 @@ img {
     text-align: center;
   }
   /*--------fin header--------*/
+
+  /*--------pagina inicio--------*/
+  .secundario{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .paisajes, .retratos {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 1%
+  }
+
+  .paisajes img{
+    width: 95%;
+  }
+  /*--------pagina inicio--------*/
 }

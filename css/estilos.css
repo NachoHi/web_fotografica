@@ -263,4 +263,21 @@ img {
     width: 95%;
   }
   /*--------fin pagina paisajes y retratos--------*/
+
+  /*--------footer--------*/
+  #contenedor2{
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  #contenedor2 ul{
+    margin: 0 auto;
+    padding: 3%;
+    width: 100%;
+  }
+
+  #contenedor2 img{
+    width: 13%;
+  }
+  /*--------fin footer--------*/
 }

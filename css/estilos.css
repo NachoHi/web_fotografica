@@ -1,0 +1,39 @@
+body {
+  font-family: Dancing Script;
+  background-color: #02010a;
+}
+
+.contenido {
+  width: 900px;
+  margin: auto;
+}
+
+img {
+  box-shadow: 2px 2px #02010a;
+}
+
+/*--------animacion--------*/
+@keyframes intro {
+  0%{
+    margin-top: 150%;
+  }
+  60%{
+    margin-top: -5%;
+  }
+  100%{
+    margin-top: 0%;
+  }
+}
+
+@-webkit-keyframes intro {
+  0%{
+    margin-top: 150%;
+  }
+  60%{
+    margin-top: -5%;
+  }
+  100%{
+    margin-top: 0%;
+  }
+}
+/*--------animacion--------*/

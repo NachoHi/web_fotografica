@@ -206,3 +206,26 @@ img {
   text-align: center;
 }
 /*--------Fin footer--------*/
+
+@media screen and (max-width: 900px) {
+  .contenido{
+    width: 100%;
+  }
+
+  /*--------header--------*/
+  #contenedor{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #titulo{
+    text-align: center;
+    width: 100%;
+  }
+
+  #menu{
+    width: 100%;
+    text-align: center;
+  }
+  /*--------fin header--------*/
+}

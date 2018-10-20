@@ -37,3 +37,43 @@ img {
   }
 }
 /*--------animacion--------*/
+
+/*--------header--------*/
+#contenedor {
+  animation: intro 1s;
+  background-color: #5b7989;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  flex-flow: wrap row;
+}
+
+#titulo {
+  width: 70%;
+  color: white;
+  text-shadow: 2px 2px #02010a;
+  font-size: 3em;
+}
+
+#menu {
+  width: 30%;
+  text-align: center;
+  margin: auto;
+}
+
+#menu a {
+  color: white;
+  font-size: 1.5em;
+}
+
+#menu .inicio {
+  text-decoration: none;
+}
+
+#menu .paisaje {
+  text-decoration: none;
+}
+
+#menu .retrato {
+  text-decoration: none;
+}
+/*--------fin header--------*/
